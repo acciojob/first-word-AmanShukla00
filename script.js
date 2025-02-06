@@ -1,7 +1,7 @@
 function firstWord(s) {
-  let s=s.trim().split(" ");
+  let a=s.trim().split(" ");
 	for(let i=0;i<=s.length;i++){
-		let firstword=s[0];
+		let firstword=a[0];
 		return firstword;
 	}
 }
