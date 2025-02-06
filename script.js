@@ -1,12 +1,9 @@
 function firstWord(s) {
-  if (s == "") {
-    return "";
-  }
-  const spaceIndex = s.indexOf(' ');
-  if (spaceIndex == -1) {
-    return s;
-  }
-  return s.substring(0, spaceIndex);
+  let s=s.trim().split(" ");
+	for(let i=0;i<=s.length;i++){
+		let firstword=s[0];
+		return firstword;
+	}
 }
 // Do not change the code below
 
